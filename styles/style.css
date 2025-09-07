@@ -1,1 +1,348 @@
-/* место для вашего кода */
+.body {
+    box-sizing: border-box;
+    width: 1100px;
+    min-height: 180px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    height: 293px;
+    background-color: white;
+    font-family: Raleway;
+}
+
+.logo-black {
+    position: relative;
+    top: 92px;
+    left: 36.52px;
+    width: 184px;
+    width: 148px;
+    height: 105px;
+}
+
+.menu {
+    display: inline;
+    line-height: 22px;
+    margin-top: 133px;
+    margin-left: 50px;
+    size: 18px;
+    font-weight: 400px;
+}
+
+.menu-underline {
+    line-height: 22px;
+    text-decoration: underline;
+    margin-top: 133px;
+    margin-left: 12.48px;
+    margin-right: 12.52px;
+    size: 18px;
+    color: black;
+}
+
+.menu-underline-one {
+    line-height: 22px;
+    text-decoration: underline;
+    margin-top: 133px;
+    margin-left: 13.48px;
+    size: 18px;
+    color: black;
+}
+
+.contacts {
+    position: relative;
+    left: 184px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Raleway;
+    font-weight: 400px;
+}
+
+.email {
+    color: black;
+}
+.tel {
+    color: black;
+}
+.dot-one {
+    margin-top: 142px;
+    margin-left: 13px;
+    margin-right: 12.48px;
+    width: 6px;
+    height: 6px;
+}
+
+.dot-two {
+    margin-top: 142px;
+    margin-left: 12.52px;
+    width: 6px;
+    height: 6px;
+}
+
+.cover {
+    position: relative;
+    width: 1100px;
+    height: 757px;
+}
+
+.flowers-cover {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.main-title-text {
+    font-size: 100px;
+    font-family: Raleway;
+    line-height: 115px;
+    font-weight: bold;
+    letter-spacing: 30px;
+    color: rgba(255, 255, 255);
+    letter-spacing: 30%;
+    z-index: 2;
+}
+
+.accent-span {
+    display: block;
+    margin-left: 20px;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.text-right {
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-text {
+    font-size: 22px;
+    font-family: Raleway;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255);
+    padding-left: 50px;
+    word-spacing: 27px;
+}
+
+.bet-button {
+    background-color: transparent;
+    width: 256px;
+    height: 51px;
+    font-family: Raleway;
+    font-size: 22px;
+    border: 1px solid rgba(255, 255, 255);
+    color: rgba(255, 255, 255);
+    margin-left: 60px;
+}
+
+.text-lots {
+    margin-top: 180px;
+    font-family: Raleway;
+    line-height: 47px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.lots-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.lot {
+  position: relative;
+  width: 334px;
+  height: 596px;
+  overflow: hidden;
+}
+
+.lots {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.lot-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.lot-title {
+  position: absolute;
+  top: 48px;
+  left: 20px;
+  right: 20px;
+  z-index: 2;
+  font-family: Raleway;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 120%;
+}
+
+.lot-description {
+  position: absolute;
+  bottom: 48px;
+  left: 20px;
+  right: 20px;
+  z-index: 2;
+  font-family: Raleway;
+  color: white;
+  font-size: 20px;
+  line-height: 120%;
+}
+.more-lots {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.more {
+    font-family: Raleway;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: rgba (0, 0, 0);
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.about-auction {
+    position: relative;
+    margin-top: 120px;
+}
+
+.about-auction-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.black-ellipse {
+  display: flex;
+  margin-top: 35px;
+  position: relative;
+  margin-left: 47px;
+  width: 240px;
+  height: 240px;
+}
+
+.black-ellipse img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.white-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 148px;
+  height: 114px;
+}
+
+.about-auction-text {
+    margin-top: 133px;
+    margin-left: 78px;
+    max-width: 730px;
+}
+
+.about-auction-title {
+    font-family: Raleway;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 100%;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+.about-auction-main-text {
+    margin-top: 24px;
+    font-family: Raleway;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 180px;
+  width: 1100px;
+  height: 180px;
+  font-family: Raleway;
+}
+
+.contacts-footer {
+  max-width: 240px;
+}
+
+.contacts-footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px; 
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.menu-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  font-size: 18px;
+  line-height: 22px;
+  color: black;
+}
+
+.menu-underline-center,
+.menu-underline-one-center {
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+}
+
+.socials {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  margin-right: 50px;
+}
+
